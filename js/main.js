@@ -1,6 +1,5 @@
 const controle = document.querySelectorAll('[data-controle]')
 const estatistica = document.querySelectorAll('[data-estatistica]')
-console.log(estatistica)
 const pecas = {
     "braco":{
 
@@ -53,22 +52,41 @@ function alteraValor(evento, controle ) {
             peca.value --
         }
         else {
-            console.log("Você não pode remover o item em questão")
+           alert('Você vai remover uma peça e isso pode afetar seu desempenho negativamente')
+           peca.value --
         }
 }
 
 
 controle.forEach( (elemento) => {
+
     elemento.addEventListener('click', (evento) =>{
         alteraValor(evento.target.dataset.controle, evento.target.parentNode)
-        atualizaEstaticas(evento.target.dataset.peca)
+        if (evento.target.dataset.controle === '+') {
+            atualizaEstaticasSoma(evento.target.dataset.peca)
+        }else{
+            atualizaEstaticasSubtrai(evento.target.dataset.peca)
+        }
     })
+
 })
 
 
-function atualizaEstaticas(peca) {
+function atualizaEstaticasSoma(peca) {
+    
     estatistica.forEach( (elemento)=>{
         elemento.textContent = parseInt(elemento.textContent) + pecas[peca][elemento.dataset.estatistica]
+
+    } )
+}
+
+function atualizaEstaticasSubtrai(peca) {
+    
+    estatistica.forEach( (elemento)=>{
+       
+            
+            elemento.textContent = parseInt(elemento.textContent) - pecas[peca][elemento.dataset.estatistica]
+   
 
     } )
 }
