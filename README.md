@@ -15,8 +15,8 @@ O Robot Furious é um projeto qual o objetivo fazer com que os dados mudem dinam
 ## Detalhes do projeto
 
 <div>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+  <img src="https://camo.githubusercontent.com/8f68da4a46b1bb04bfaede565e7cdb5977d80edc1fd42227bc4ff2e5b14e4112/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4353532d2532333030363942413f7374796c653d666c6174266c6f676f3d63737333">
+  <img src="https://camo.githubusercontent.com/456f6d641a6d930e3320810454cfed8fc48fe333bfa6ffaadfc5fbe18a271e41/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f48544d4c2d2532334646464646463f7374796c653d666c6174266c6f676f3d68746d6c35">
   <img src="https://camo.githubusercontent.com/aea9171cf097dde3624cde598331650ebcbff309fcd0776bc8757a15b48bbf67/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176617363726970742d2532333636363636363f7374796c653d666c6174266c6f676f3d6a617661736372697074">
 </div>
 
