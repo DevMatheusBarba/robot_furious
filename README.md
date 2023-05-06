@@ -4,10 +4,10 @@ O Robot Furious é um projeto qual o objetivo fazer com que os dados mudem dinam
 
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
-| :sparkles: Nome        | **Balle Bot**
+| :sparkles: Nome        | **Robot Furious**
 | :label: Tecnologias | HTML, CSS e JavaScript
-| :rocket: URL         | https://robot-furious.vercel.app/?
-| :fire: Desafio     | 
+| :rocket: URL         | https://robot-furious.vercel.app/
+| :fire: Desafio     |  <a href="https://cursos.alura.com.br/course/javascript-manipulando-dom">JavaScript: manipulando o DOM </a>
 
 <!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](https://raw.githubusercontent.com/DevMatheusBarba/robot_furious/main/img/robot.png#vitrinedev)
