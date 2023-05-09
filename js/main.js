@@ -172,7 +172,7 @@ function mudarBox(recebeCor) {
             elemento.style.background = '#88e8f2'
         })
         botao.style.background = '#88e8f2'
-    } else {
+    } if (recebeCor == 'Amarelo'){
         box1.style.background = 'rgb(242, 185, 80, 0.73)'
         box2.style.background = 'rgb(242, 185, 80, 0.73)'
         textos.forEach((elemento) => {
