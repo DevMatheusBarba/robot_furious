@@ -22,3 +22,5 @@ O Robot Furious é um projeto qual o objetivo fazer com que os dados mudem dinam
 
 Projeto com o intuito de mostra como o Javascript pode torna a sua pagina dinamica.
 Como podemos observa ao acessar o link do mesmo! temos a capacidade de alterar as estatisticas do Robot conforme vamos adiconando ou tirando peças
+
+

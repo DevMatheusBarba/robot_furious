@@ -17,7 +17,8 @@ body {
     font-weight: 300;
 }
 
-body, input {
+body,
+input {
     font-family: 'Teko', sans-serif;
 }
 
@@ -38,11 +39,11 @@ main {
 }
 
 .robo {
-    height: 110%;
+    height: 100%;
     z-index: 1;
     position: absolute;
     left: -20%;
-    top: -5%;
+    top: 1%;
 }
 
 .titulo {
@@ -55,14 +56,29 @@ main {
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
-    color: rgba(0,0,0,0.8)
+    color: rgba(0, 0, 0, 0.8)
 }
 
 .box {
-    background: rgba(255, 166, 0, 0.73);
+    background:  rgba(252, 251, 249, 0.73);
     clip-path: polygon(calc(100% - 30px) 0, 100% 30px, 100% calc(100% - 30px), calc(100% - 30px) 100%, 30px 100%, 0 calc(100% - 30px), 0 30px, 30px 0);
     border-left: 5px solid var(--main-preto);
     height: 80%;
+}
+
+
+.botoes {
+    position: relative;
+    bottom: 3%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.alterar{
+    margin: 2px;
+    width: 100px;
 }
 
 /****************************** Equipamentos *****/
@@ -72,11 +88,13 @@ main {
 }
 
 .montador {
-    height: 100%;;
+    height: 100%;
+    ;
 }
 
 .montador-conteudo {
     padding: 2em 10%;
+    
 }
 
 .peca {
@@ -145,7 +163,7 @@ main {
 
 .producao:hover {
     background: var(--main-preto);
-    color: var(--main-branco)
+    color: #CCCCCC
 }
 
 
@@ -210,22 +228,25 @@ main {
 }
 
 @media screen and (max-width: 1600px) {
-    body { 
+    body {
         font-size: 13px;
     }
+
     main {
         width: 90vw;
         height: 90vh;
         margin: 5vh auto;
     }
 
-    .estatistica-titulo{
+    .estatistica-titulo {
         margin-top: 2em;
     }
+
+
 }
 
 @media screen and (max-width: 1200px) {
-    body { 
+    body {
         font-size: 13px;
     }
 
@@ -234,4 +255,5 @@ main {
         height: 80vh;
         margin: 10vh auto;
     }
+
 }
